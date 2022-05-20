@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    background: rgba(43, 42, 42, 0.6) !important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(33, 124, 94);
+}
+
+.bg-top {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.bg-top h5 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.bg-top h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: monospace;
+}
+
+.bg-top p {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+/* above is all nav bar and back ground */
+
+/* below is about me section */
